@@ -12,7 +12,7 @@ export default class Todo extends React.Component<IProps> {
       <React.Fragment>
         <div className="infoBox">
           <span>{this.props.todo.name}:</span>
-        <span>{this.props.todo.description}</span>
+          <span>{this.props.todo.description}</span>
           <button onClick={this.props.onRemove}>x</button>
         </div>
       </React.Fragment>
